@@ -1,0 +1,8 @@
+# npm dependencies should not be in the image
+node_modules
+# coverage files should be ignored too
+coverage
+.nyc_output
+.env
+.git
+logs

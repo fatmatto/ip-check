@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  ip-check:
+    container_name: ip-check
+    image: fatmatto/ip-check
+    restart: always
+    ports:
+      - 3000:3000
